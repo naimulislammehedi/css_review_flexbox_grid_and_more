@@ -1,7 +1,13 @@
 review; 
 - css flexbox 
 - project: 
-- css grid 
+- css grid
+    - css grid 
+    - grid container
+    - grid tracks 
+    - grid gap 
+    - grid container
+    - grid items 
 - project: 
 - make a website with html and css 
 - css responsiveness 

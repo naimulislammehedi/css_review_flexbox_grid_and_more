@@ -1,0 +1,28 @@
+.container {
+    background-color: dodgerblue;
+    padding: 10px;
+
+        /* Display Grid Property */
+    display: grid;
+    /* display: inline-grid; */
+
+    /* CSS Grid Tracks */
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 80px 200px auto; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: minmax(80px, 1fr) 150px 150px; */
+    /* Use minmax() to define that first column is at least 80px wide and can grow to 1fr */
+
+    /* The CSS grid-template-rows Property */
+    grid-template-rows: 80px 200px;
+}
+
+.container > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
