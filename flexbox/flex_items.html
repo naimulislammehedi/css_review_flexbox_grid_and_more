@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex Items</title>
+
+    <style>
+        .container {
+            display: flex;
+            background-color: dodgerblue;
+            height: 200px;
+        }
+
+        .container div {
+            background-color: #f1f1f1;
+            color: #000;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- order property -->
+        <!-- <div style="order: 3">1</div>
+        <div style="order: 2">2</div>
+        <div style="order: 4">3</div>
+        <div style="order: 1">4</div> -->
+
+        <!-- flex-grow -->
+        <!-- <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 1">2</div>
+        <div style="flex-grow: 4">3</div> -->
+
+        <!-- flex-basis -->
+         <!-- <div>1</div>
+         <div>2</div>
+         <div style="flex-basis: 250px;">3</div>
+         <div>4</div> -->
+
+         <!-- flex property: shorthand  (growable, not shrinkable, initial length)-->
+          <!-- <div>1</div>
+          <div>2</div>
+          <div style="flex: 1 0 150px;">3</div>
+          <div>4</div> -->
+
+          <!-- align-self -->
+           <div>1</div>
+          <div>2</div>
+          <!-- <div style="align-self: center;">3</div> -->
+           <!-- <div style="align-self: flex-start;">3</div> -->
+            <div style="align-self: flex-end;">3</div>
+          <div>4</div>
+    </div>
+
+</body>
+
+</html>
