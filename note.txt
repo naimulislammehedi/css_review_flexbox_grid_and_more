@@ -1,10 +1,9 @@
-Day 2 — CSS + Layout Mastery
-Review only what clients care about:
-- Flexbox (layouts)
-- Grid (cards, dashboards)
-- Responsive strategy (mobile-first)
+review; 
+- css flexbox 
+- project: 
+- css grid 
+- project: 
+- make a website with html and css 
+- css responsiveness 
+- convert this website to responsive 
 
-Output
-- Responsive pricing section
-- Responsive card grid
-- One-page layout without breakage
