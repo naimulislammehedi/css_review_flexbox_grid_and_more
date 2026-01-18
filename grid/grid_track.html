@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Tracks</title>
+
+    <style>
+        .container {
+            display: grid;
+            background-color: dodgerblue;
+            padding: 5px;
+            gap: 5px;
+
+            /* grid-template-columns: auto auto auto; */
+
+
+            /* grid columns with mixed width */
+            /* grid-template-columns: 80px 200px auto; */
+
+            /* grid-column with fr units  */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: 1fr 2fr 1fr; */
+
+            /* Grid Columns with the repeat() Function */
+            /* grid-template-columns: repeat(3, 1fr); */
+
+            /* Grid Columns with the minmax() Function */
+            grid-template-columns: minmax(80px, 1fr) 150px 150px;
+
+            /* The CSS grid-template-rows Property*/
+            grid-template-rows: 80px 200px;
+
+        }
+
+        .container div {
+            background-color: #f1f1f1;
+            color: #000;
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+
+</html>
