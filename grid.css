@@ -16,7 +16,12 @@
     /* Use minmax() to define that first column is at least 80px wide and can grow to 1fr */
 
     /* The CSS grid-template-rows Property */
-    grid-template-rows: 80px 200px;
+    /* grid-template-rows: 80px 200px; */
+
+    /* CSS Grid Gap */
+    /* column-gap: 50px; */
+    /* row-gap: 50px; */
+    gap: 30px 100px;
 }
 
 .container > div {
